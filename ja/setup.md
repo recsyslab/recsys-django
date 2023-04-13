@@ -16,7 +16,7 @@ $ sudo apt install libgdal-dev	# GDALのインストールに必要
 $ sudo apt install python3-gdal	# GDALのインストールに必要
 $ sudo apt install libffi-dev # scikit-learnのインポートに必要
 # ...（5分程度）...
-# sudo apt install mecab libmecab-dev mecab-ipadic mecab-ipadic-utf8
+$ sudo apt install mecab libmecab-dev mecab-ipadic mecab-ipadic-utf8
 ```
 
 ## rsl-django仮想環境の構築
