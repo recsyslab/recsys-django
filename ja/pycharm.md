@@ -65,36 +65,4 @@ pycharm
 2. ブラウザで下記にアクセスし、実行画面が正しく表示されればOK。
    - http://127.0.0.1:8000/
 
-### makemigrationsの登録
-1. 右上のプルダウンリストから**Edit Configurations**を開く。
-   1. 登録してある`runserver`を選択し、**Copy Configuration**ボタンをクリックする。
-   2. 下記を設定する。
-      - **Name**: `makemigrations`
-      - **Parameters**: `makemigrations`
-   3. **OK**ボタンをクリックする。
-
-### makemigrationsの実行
-1. 右上のプルダウンリストから`makemigrations`を選択し、**▶**ボタンをクリックする。
-
-### migrateの登録
-1. 右上のプルダウンリストから**Edit Configurations**を開く。
-   1. 登録してある`runserver`を選択し、**Copy Configuration**ボタンをクリックする。
-   2. 下記を設定する。
-      - **Name**: `migrate`
-      - **Parameters**: `migrate`
-   3. **OK**ボタンをクリックする。
-
-### migrateの実行
-1. 右上のプルダウンリストから`migrate`を選択し、**▶**ボタンをクリックする。
-
-### inspectdbの登録
-1. 右上のプルダウンリストから**Edit Configurations**を開く。
-   1. 登録してある`runserver`を選択し、**Copy Configuration**ボタンをクリックする。
-   2. 下記を設定する。
-      - **Name**: `inspectdb`
-      - **Parameters**: `inspectdb`
-   3. **OK**ボタンをクリックする。
-
-### inspectdbの実行
-1. 右上のプルダウンリストから`migrate`を選択し、**▶**ボタンをクリックする。
 
