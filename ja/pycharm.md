@@ -57,7 +57,7 @@ pycharm
          - **Name**: `runserver`
          - **Script path**: `【HOME】/recsys_django/manage.py`
          - **Parameters**: `runserver`
-         - **Environment Variables**: `PYTHONUNBUFFERED=1;DB_USER=【DBユーザ名】;DB_PASSWORD=【DBパスワード】`
+         - **Environment Variables**: `PYTHONUNBUFFERED=1;DB_USER=rsl;DB_PASSWORD=【DBパスワード】`
       2. **OK**ボタンをクリックする。
 
 ### runserverの起動
