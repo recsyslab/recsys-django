@@ -33,7 +33,7 @@ pycharm
 ### プロジェクトのオープン
 1. 初回起動時は「Welcome to PyCharm」画面が開くので、**Open**ボタンをクリックする。
    1. Djangoプロジェクトディレクトリ（下記の場所）を選択する。
-      - `【HOME】/recsys_django
+      - `【HOME】/recsys_django`
    2. **OK**ボタンをクリックする。
    3. **Trust Project**ボタンをクリックする。
 
@@ -47,7 +47,8 @@ pycharm
             - **Environment**: `Existing`
             - **Interpreter**: `【HOME】/venv/rsl-django/bin/python3.9`
          2. **OK**ボタンをクリックする。
-      2. **OK**ボタンをクリックする。
+      2. **Python Interpreter**に`Python 3.9 (rsl-django)`が設定されていることを確認する。
+      3. **OK**ボタンをクリックする。
 
 ## runserverの登録
 1. 右上の**Add Configuration**ボタンをクリックする。
