@@ -1,6 +1,6 @@
 # PyCharm
 
-## インストール
+## PyCharmのインストール
 
 ### ダウンロード
 1. 下記からPyCharmをダウンロードする。
@@ -36,11 +36,11 @@ pycharm
 
 ### Python Interpreterの設定
 1. **File - Settings**を開く。
-   1. **Project: myproject - Python Interpreter**を開く。
-      1. **Python Interpreter**の右側の歯車アイコンをクリックし、**Add**を選択する。
+   1. **Project: recsys_django - Python Interpreter**を開く。
+      1. **Python Interpreter**の右側の**Add Interpreter - Add Local Interpreter**をクリックする。
          1. **Virtualenv Environment**を開き、下記を設定する。
-            - **Existing environment**: 選択
-            - **Interpreter**: `【HOME】venv/rsl-django/bin/python3.9`
+            - **Environment**: `Existing`
+            - **Interpreter**: `【HOME】/venv/rsl-django/bin/python3.9`
          2. **OK**ボタンをクリックする。
       2. **OK**ボタンをクリックする。
 
