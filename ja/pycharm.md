@@ -50,24 +50,22 @@ pycharm
       2. **Python Interpreter**に`Python 3.9 (rsl-django)`が設定されていることを確認する。
       3. **OK**ボタンをクリックする。
 
-## runserverの登録
-1. 右上の**Add Configuration**ボタンをクリックする。
+### runserverの登録
+1. **Run - Edit Configurations**を開く。
    1. 左上の**+**ボタンをクリックし、**Python**を選択する。
       1. 下記を設定する。
          - **Name**: `runserver`
-         - **Script path**: `/home/rsl/recsyslab/django/myproject/manage.py`
+         - **Script path**: `【HOME】/recsys_django/manage.py`
          - **Parameters**: `runserver`
-         - **Environment Variables**: 
-           - **DB_USER**: （DBユーザ名）
-           - **DB_PASSWORD**: （パスワード）
+         - **Environment Variables**: `PYTHONUNBUFFERED=1;DB_USER=【DBユーザ名】;DB_PASSWORD=【DBパスワード】`
       2. **OK**ボタンをクリックする。
 
-## runserverの起動
-1. 右上のプルダウンリストが`runserver`になっていることを確認し，**▶**ボタンをクリックする。
-2. 下記にアクセスし、「The install worked successfully! Congratulations!」と表示されればOK。
+### runserverの起動
+1. 右上のプルダウンリストが`runserver`になっていることを確認し、**▶**ボタンをクリックする。
+2. ブラウザで下記にアクセスし、実行画面が正しく表示されればOK。
    - http://127.0.0.1:8000/
 
-## makemigrationsの登録
+### makemigrationsの登録
 1. 右上のプルダウンリストから**Edit Configurations**を開く。
    1. 登録してある`runserver`を選択し、**Copy Configuration**ボタンをクリックする。
    2. 下記を設定する。
@@ -75,10 +73,10 @@ pycharm
       - **Parameters**: `makemigrations`
    3. **OK**ボタンをクリックする。
 
-## makemigrationsの実行
+### makemigrationsの実行
 1. 右上のプルダウンリストから`makemigrations`を選択し、**▶**ボタンをクリックする。
 
-## migrateの登録
+### migrateの登録
 1. 右上のプルダウンリストから**Edit Configurations**を開く。
    1. 登録してある`runserver`を選択し、**Copy Configuration**ボタンをクリックする。
    2. 下記を設定する。
@@ -86,10 +84,10 @@ pycharm
       - **Parameters**: `migrate`
    3. **OK**ボタンをクリックする。
 
-## migrateの実行
+### migrateの実行
 1. 右上のプルダウンリストから`migrate`を選択し、**▶**ボタンをクリックする。
 
-## inspectdbの登録
+### inspectdbの登録
 1. 右上のプルダウンリストから**Edit Configurations**を開く。
    1. 登録してある`runserver`を選択し、**Copy Configuration**ボタンをクリックする。
    2. 下記を設定する。
@@ -97,6 +95,6 @@ pycharm
       - **Parameters**: `inspectdb`
    3. **OK**ボタンをクリックする。
 
-## inspectdbの実行
+### inspectdbの実行
 1. 右上のプルダウンリストから`migrate`を選択し、**▶**ボタンをクリックする。
 
