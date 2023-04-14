@@ -23,14 +23,19 @@ $ sudo ln -s ~/opt/pycharm-community/bin/inspect.sh /usr/local/bin/inspect
 $ rm -f pycharm-community-2023.1.tar.gz
 ```
 
-## PyCharmでプロジェクトのオープン
+## PyCharmの実行
 ```bash
 pycharm
 ```
 
-1. **Open**ボタンをクリックする。
-   1. Djangoプロジェクトディレクトリを選択する。
+以下、ホームディレクトリ（`【HOME】`）に、`recsys_django`プロジェクトが作成されているものとする。
+
+### プロジェクトのオープン
+1. 初回起動時は「Welcome to PyCharm」画面が開くので、**Open**ボタンをクリックする。
+   1. Djangoプロジェクトディレクトリ（下記の場所）を選択する。
+      - `【HOME】/recsys_django
    2. **OK**ボタンをクリックする。
+   3. **Trust Project**ボタンをクリックする。
 
 ## 設定
 
