@@ -53,6 +53,8 @@ $ source ~/venv/rsl-django/bin/activate
 # プロンプトが(rsl-django) ...$となればOK
 ```
 
+以降、プロンプトが`(rsl-django) $`となっている行はrsl-django仮想環境上で実行することを表します。
+
 ## pipのアップグレード
 ```bash
 (rsl-django) $ pip --version
