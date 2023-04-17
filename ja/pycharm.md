@@ -1,4 +1,4 @@
-# PyCharm
+# PyCharmのインストールと設定
 
 ## PyCharmのインストール
 
