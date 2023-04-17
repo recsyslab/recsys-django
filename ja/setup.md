@@ -49,7 +49,8 @@ $ python3.9 -m venv rsl-django
 
 ## rsl-django仮想環境のアクティベート
 ```bash
-$ source rsl-django/bin/activate
+$ source ~/venv/rsl-django/bin/activate
+# プロンプトが(rsl-django) ...$となればOK
 ```
 
 ## pipのアップグレード
@@ -116,4 +117,10 @@ GDAL 3.0.4, released 2020/01/28
 ### インストール済みパッケージの確認
 ```bash
 (rsl-django) $ pip freeze
+```
+
+## rsl-django仮想環境のディアクティベート
+```bash
+(rsl-django) $ deactivate
+# プロンプトが元に戻ればOK
 ```
