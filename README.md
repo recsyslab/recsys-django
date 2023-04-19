@@ -40,6 +40,7 @@ recsys-djangoはPythonのWebアプリケーションフレームワークであ�
 - PostgreSQL 12.14
 - Python 3.9.5
 - Django 4.2
+- Google Chrome 112.0.5615.49
 
 ### アレンジ
 
