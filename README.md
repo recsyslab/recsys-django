@@ -111,14 +111,14 @@ recsys-djangoはPythonのWebアプリケーションフレームワークであ�
 
 ### 推薦システムの実装
 - 風間正弘，飯塚洸二郎，松村優也，**『著推薦システム実践入門 ―仕事で使える導入ガイド』**，オライリー・ジャパン，2022．
-- Kim Falk, **``Practical Recommender Systems''**, MANNING, 2019.
 - 与謝秀作，**特集3 最新レコメンドエンジン総実装 協調フィルタリングから深層学習まで**，WEB+DB PRESS Vol.129，pp.69-100，技術評論社，2022．
+- Kim Falk, **``Practical Recommender Systems''**, MANNING, 2019.
 
 ### Django
 - [Django ドキュメント \| Django](https://docs.djangoproject.com/ja/4.1/)
+- チーム・カルポ，**『Django4 Webアプリ開発 実装ハンドブック』**，秀和システム，2022．
 - 横瀬明仁，**『現場で使える Django の教科書《基礎編》』**，NextPublishing Authors Press，2018．
 - 横瀬明仁，**『現場で使える Django の教科書《実践編》』**，Independently published，2018．
-- チーム・カルポ，**『Django4 Webアプリ開発 実装ハンドブック』**，秀和システム，2022．
 
 ## 作成者
 
