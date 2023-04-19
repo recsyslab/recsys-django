@@ -1,3 +1,12 @@
+---
+title: プロジェクトの作成
+layout: default
+---
+
+{% include header.html %}
+
+{% raw %}
+
 # PyCharmのインストールと設定
 
 ## PyCharmのインストール
@@ -65,4 +74,4 @@ pycharm
 2. ブラウザで下記にアクセスし、実行画面が正しく表示されればOK。
    - http://127.0.0.1:8000/
 
-
+{% endraw %}
