@@ -1,3 +1,12 @@
+---
+title: プロジェクトの作成
+layout: default
+---
+
+{% include header.html %}
+
+{% raw %}
+
 # 環境構築
 
 ## パッケージのアップグレード
@@ -130,3 +139,5 @@ GDAL 3.0.4, released 2020/01/28
 (rsl-django) $ deactivate
 # プロンプトが元に戻ればOK
 ```
+
+{% endraw %}
