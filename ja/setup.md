@@ -1,5 +1,5 @@
 ---
-title: プロジェクトの作成
+title: 環境構築
 layout: default
 ---
 
