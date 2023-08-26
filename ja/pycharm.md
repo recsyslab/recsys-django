@@ -1,5 +1,5 @@
 ---
-title: プロジェクトの作成
+title: PyCharmのインストール
 layout: default
 ---
 
