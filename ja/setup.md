@@ -51,26 +51,26 @@ $ sudo apt install postgis
 $ sudo apt install mecab libmecab-dev mecab-ipadic mecab-ipadic-utf8
 ```
 
-## rsl-django仮想環境の構築
+## venv_recsys_django仮想環境の構築
 ```bash
-$ mkdir ~/venv/
-$ cd ~/venv/
-$ python3.9 -m venv rsl-django
+$ python3.11 -m venv venv_recsys_django
+$ ls venv_recsys_django/
 ```
 
-## rsl-django仮想環境のアクティベート
+## venv_recsys_django仮想環境のアクティベート
 ```bash
-$ source ~/venv/rsl-django/bin/activate
-# プロンプトが(rsl-django) ...$となればOK
+$ source ~/venv_recsys_django/bin/activate
+$ (venv_recsys_django) $
+# プロンプトが(venv_recsys_django) ...$となればOK
 ```
 
-以降、プロンプトが`(rsl-django) $`となっている行はrsl-django仮想環境上で実行することを表します。
+以降、プロンプトが`(venv_recsys_django) $`となっている行はvenv_recsys_django仮想環境上で実行することを表します。
 
 ## pipのアップグレード
 ```bash
-(rsl-django) $ pip --version
-(rsl-django) $ pip install --upgrade pip
-(rsl-django) $ pip --version
+(venv_recsys_django) $ pip --version
+(venv_recsys_django) $ pip install --upgrade pip
+(venv_recsys_django) $ pip --version
 ```
 
 ## 各種パッケージのインストール
@@ -79,64 +79,67 @@ $ source ~/venv/rsl-django/bin/activate
 
 ### 基本
 ```bash
-(rsl-django) $ pip install ipython
-(rsl-django) $ pip install tqdm
+(venv_recsys_django) $ pip install ipython
+(venv_recsys_django) $ pip install tqdm
 ```
 
 ### データ分析関連
 ```bash
-(rsl-django) $ pip install numpy
-(rsl-django) $ pip install scipy
-(rsl-django) $ pip install matplotlib
-(rsl-django) $ pip install pandas
-(rsl-django) $ pip install scikit-learn
+(venv_recsys_django) $ pip install numpy
+(venv_recsys_django) $ pip install scipy
+(venv_recsys_django) $ pip install matplotlib
+(venv_recsys_django) $ pip install pandas
+(venv_recsys_django) $ pip install scikit-learn
 ```
 
 ### DB関連
 ```bash
-(rsl-django) $ pip install psycopg2-binary
+(venv_recsys_django) $ pip install psycopg2-binary
 ```
 
 ### NLP関連
 ```bash
-(rsl-django) $ pip install mecab-python3
-(rsl-django) $ pip install ginza
-(rsl-django) $ pip install ja-ginza
-(rsl-django) $ pip install spacy
+(venv_recsys_django) $ pip install mecab-python3
+(venv_recsys_django) $ pip install ginza
+(venv_recsys_django) $ pip install ja-ginza
+(venv_recsys_django) $ pip install spacy
 ```
 
 ### スクレイピング関連
 ```bash
-(rsl-django) $ pip install beautifulsoup4
-(rsl-django) $ pip install requests
+(venv_recsys_django) $ pip install beautifulsoup4
+(venv_recsys_django) $ pip install requests
 ```
 
 ### Django関連
 ```bash
-(rsl-django) $ pip install django
-(rsl-django) $ pip install django-leaflet
-(rsl-django) $ export CPLUS_INCLUDE_PATH=/usr/include/gdal
-(rsl-django) $ export C_INCLUDE_PATH=/usr/include/gdal
-(rsl-django) $ gdalinfo --version
-GDAL 3.0.4, released 2020/01/28
-(rsl-django) $ pip install gdal==3.0.4 # libgdal-devのバージョンに合わせる # GeoDjangoに必要
+(venv_recsys_django) $ pip install django
+(venv_recsys_django) $ pip install django-leaflet
+(venv_recsys_django) $ export CPLUS_INCLUDE_PATH=/usr/include/gdal
+(venv_recsys_django) $ export C_INCLUDE_PATH=/usr/include/gdal
+(venv_recsys_django) $ apt list --installed | grep libgdal-dev
+(venv_recsys_django) $ gdalinfo --version
+libgdal-dev/jammy,now 3.4.1+dfsg-1build4 amd64 [インストール済み]
+# libgdal-devのバージョンを確認する。
+(venv_recsys_django) $ pip install gdal==3.4.1 # libgdal-devのバージョンに合わせる # GeoDjangoに必要
 # ...（1分程度）...
-(rsl-django) $ pip install djangorestframework-gis # RESTful APIに必要
-(rsl-django) $ pip install django-filter # RESTful APIに必要
-(rsl-django) $ pip install markdown # RESTful APIに必要
-(rsl-django) $ pip install django-bootstrap5
-(rsl-django) $ pip install django-allauth
-(rsl-django) $ pip install django-cleanup
+(venv_recsys_django) $ pip install djangorestframework-gis # RESTful APIに必要
+(venv_recsys_django) $ pip install django-filter # RESTful APIに必要
+(venv_recsys_django) $ pip install markdown # RESTful APIに必要
+(venv_recsys_django) $ pip install django-bootstrap5
+(venv_recsys_django) $ pip install django-allauth
+(venv_recsys_django) $ pip install django-cleanup
 ```
 
 ### インストール済みパッケージの確認
 ```bash
-(rsl-django) $ pip freeze
+(venv_recsys_django) $ pip freeze
 ```
 
-## rsl-django仮想環境のディアクティベート
+## venv_recsys_django仮想環境のディアクティベート
 ```bash
-(rsl-django) $ deactivate
+(venv_recsys_django) $ deactivate
+$
 # プロンプトが元に戻ればOK
 ```
 
