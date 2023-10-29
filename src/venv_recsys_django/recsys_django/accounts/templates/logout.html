@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}Logout | recsys-django{% endblock %}
+
+{% block contents %}
+    <div class="row">
+        <div class="col offset-2">
+            <h3>ログアウトしました。</h3>
+            <br/>
+            <p>
+                <a href="{% url 'online:index' %}">
+                    トップページに戻る
+                </a>
+            </p>
+        </div>
+    </div>
+{% endblock %}

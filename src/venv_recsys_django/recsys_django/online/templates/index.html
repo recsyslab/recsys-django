@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}sushi recommender | recsys-django{% endblock %}
+
+{% block contents %}
+
+    <div class="col-md-12 text-center">
+        <canvas id="main_canvas" width="720" height="750"></canvas>
+    </div>
+
+    {# --- js --- #}
+    <script type="text/javascript" src="{% static 'js/Page.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/MainPage.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/DetailPage.js' %}"></script>
+
+    <script type="text/javascript" src="{% static 'js/Item.js' %}"></script>
+
+    <script type="text/javascript" src="{% static 'js/Component.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/ItemComponent.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/NextButton.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/Slot.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/ReturnButton.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/Star.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/StarRating.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/ItemDetailComponent.js' %}"></script>
+
+    <script type="text/javascript" src="{% static 'js/csrftoken.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+
+{% endblock %}

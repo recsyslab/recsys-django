@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}Registration Complete | recsys-django{% endblock %}
+
+{% block contents %}
+    <div class="row">
+        <div class="col offset-4 py-4">
+            <h3>サインアップが完了しました。</h3>
+            <p>
+                <a href="{% url 'accounts:login' %}">
+                    ログインはこちら
+                </a>
+            </p>
+        </div>
+    </div>
+{% endblock %}
