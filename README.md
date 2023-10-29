@@ -121,6 +121,9 @@ recsys-djangoはPythonのWebアプリケーションフレームワークであ�
 - 横瀬明仁，**『現場で使える Django の教科書《基礎編》』**，NextPublishing Authors Press，2018．
 - 横瀬明仁，**『現場で使える Django の教科書《実践編》』**，Independently published，2018．
 
+## 更新情報
+- 2023-10-29: 仮想環境名を`venv_recsys_django`に変更し、そのディレクトリ内に`recsys_django`プロジェクトを作成するように変更
+
 ## 作成者
 
 龍谷大学 [推薦システム研究室](https://recsyslab.org/) 奥 健太
