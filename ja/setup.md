@@ -118,7 +118,6 @@ $ (venv_recsys_django) $
 (venv_recsys_django) $ export CPLUS_INCLUDE_PATH=/usr/include/gdal
 (venv_recsys_django) $ export C_INCLUDE_PATH=/usr/include/gdal
 (venv_recsys_django) $ apt list --installed | grep libgdal-dev
-(venv_recsys_django) $ gdalinfo --version
 libgdal-dev/jammy,now 3.4.1+dfsg-1build4 amd64 [インストール済み]
 # libgdal-devのバージョンを確認する。
 (venv_recsys_django) $ pip install gdal==3.4.1 # libgdal-devのバージョンに合わせる # GeoDjangoに必要
