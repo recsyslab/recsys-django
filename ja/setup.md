@@ -53,8 +53,8 @@ $ sudo apt install mecab libmecab-dev mecab-ipadic mecab-ipadic-utf8
 
 ## venv_recsys_django仮想環境の構築
 ```bash
-$ python3.11 -m venv venv_recsys_django
-$ ls venv_recsys_django/
+$ python3.11 -m venv ~/venv_recsys_django
+$ ls ~/venv_recsys_django/
 ```
 
 ## venv_recsys_django仮想環境のアクティベート
