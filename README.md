@@ -122,7 +122,7 @@ recsys-djangoはPythonのWebアプリケーションフレームワークであ�
 - 横瀬明仁，**『現場で使える Django の教科書《実践編》』**，Independently published，2018．
 
 ## 更新情報
-- 2023-10-29: 仮想環境名を`venv_recsys_django`に変更し、そのディレクトリ内に`recsys_django`プロジェクトを作成するように変更
+- 2023-10-29: 仮想環境名を`venv_recsys_django`に変更
 - 2023-10-29: サンプルデータの置き場を`src/`から`contents/`に変更
 - 2023-10-29: 模範ソースコードを`src/`に公開
 
